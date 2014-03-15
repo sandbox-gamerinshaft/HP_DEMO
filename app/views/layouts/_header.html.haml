@@ -1,0 +1,83 @@
+.header
+  %nav.navbar.navbar-default{role: "navigation"}
+    .container-fluid
+      / Brand and toggle get grouped for better mobile display
+      .navbar-header
+        %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", type: "button"}
+          %span.sr-only Toggle navigation
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        %a.navbar-brand{href: "#"} 朝レボ
+      / Collect the nav links, forms, and other content for toggling
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        %ul.nav.navbar-nav
+          %li
+            %a{href: "#"} FOOD
+          %li
+            %a{href: "#"} SPORTS
+          %li
+            %a{href: "#"} HEALTH
+          %li
+            %a{href: "#"} BEAUTY
+          %li
+            %a{href: "#"} EVENT
+          %li
+            %a{href: "#"} DRINK
+          %li
+            %a{href: "#"} PLAY
+          %li
+            %a{href: "#"} CONNECT
+          %li
+            %a{href: "#"} VOLUNTEER
+          %li
+            %a{href: "#"} AWAKE
+          %li
+            %a{href: "#"} HASTLE!!!!
+        %ul.nav.navbar-nav.navbar-right
+          %li.dropdown
+            %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+              MENU
+              %b.caret
+            %ul.dropdown-menu
+              %li
+                %a{href: "#"} 中の人
+              %li
+                %a{href: "#"} Q&A
+              %li
+                %a{href: "#"} プライバシーポリシー
+              %li.divider
+              %li
+                %a{href: "#"} 連絡先
+        %form.navbar-form.navbar-right{role: "search"}
+          .form-group
+            %input.form-control{placeholder: "Search more ...", type: "text"}/
+          %button.btn.btn-primary{type: "submit"} Submit
+
+.header-content
+  .container
+    .center
+      = image_tag "logo.png", style: "height: 180px;"
+.sub-header
+  %nav.navbar.navbar-default{role: "navigation"}
+    .container-fluid.container
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        %ul.nav.navbar-nav
+          %li.active
+            %a{href: "#"} TOP
+          %li
+            %a{href: "#"} 朝レボとは
+          %li
+            %a{href: "#"} マイページ
+          %li
+            %a{href: "#"} イベント
+          %li
+            %a{href: "#"} NOW
+          %li
+            %a{href: "#"} SNS
+          %li
+            %a{href: "#"} Q&A
+          %li
+            %a{href: "#"} TWITTER
+          %li
+            %a{href: "#"} FACEBOOK
