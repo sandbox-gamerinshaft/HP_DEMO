@@ -36,3 +36,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+#UserAdd
+gem "bootstrap-sass"
+gem "haml-rails"
+gem "fontawesome-rails"
