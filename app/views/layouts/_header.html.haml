@@ -56,8 +56,14 @@
 
 .header-content
   .container
-    .center
-      = image_tag "logo.png", style: "height: 180px;"
+    = image_tag "logo.png", style: "height: 180px;", class: "pull-left"
+    %h1.bold.pull-left
+      .pull-left morning
+      .asarebo.pull-right -朝レボ-
+      .clear
+    %h1.bold.pull-right
+      revolution
+    .clear
 .sub-header
   %nav.navbar.navbar-default{role: "navigation"}
     .container-fluid.container

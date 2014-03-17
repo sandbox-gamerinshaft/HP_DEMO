@@ -1,0 +1,29 @@
+#myCarousel.carousel.slide
+  %ol.carousel-indicators
+    %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+    %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+  / Carousel items
+  .carousel-inner
+    .active.item
+      .image
+        =image_tag("breakfast.jpg")
+      .carousel-caption
+        %h3 朝クーポン発行中！
+        %p 朝ご飯を食べてリッチな朝の時間を過ごしてみませんか？？
+    .item
+      .image
+        =image_tag("mountain.JPG")
+      .carousel-caption
+        %h3 山の会
+        %p 皆で山に登って気分をリフレッシュ！！！
+    .item
+      .image
+        =image_tag("onsen.jpg")
+      .carousel-caption
+        %h3 オススメ温泉特集
+        %p 疲れた身体には温泉が一番！日頃の疲れを癒しましょう
+
+  / Carousel nav
+  %a.carousel-control.left{"data-slide" => "prev", href: "#myCarousel"} ‹
+  %a.carousel-control.right{"data-slide" => "next", href: "#myCarousel"} ›

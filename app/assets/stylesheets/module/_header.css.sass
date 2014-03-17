@@ -1,18 +1,19 @@
 .header
   nav.navbar.navbar-default
+    background-color: #4198CE
     margin-bottom: 0px
     .container-fluid
       .navbar-header
-
-      span
         button.navbar-toggle
           span.sr-only
           span.icon-bar
         a.navbar-brand
+          color: yellow
       #bs-example-navbar-collapse-1.collapse.navbar-collapse
         ul.nav.navbar-nav
           li
             a
+              color: white
         ul.nav.navbar-nav.navbar-right
           li.dropdown
             a.dropdown-toggle
@@ -28,16 +29,50 @@
             input.form-control
           button.btn.btn-primary
 .header-content
-  background-image: url("/assets/images.jpg")
-  background-position: cover
+  background-color: rgba(255, 255, 255, 0.8)
+
   .container
-    .center
+    .pull-left
+    h1.bold.pull-left
+      margin-left: 50px
+      margin-top: 10px
+      font-size: 70px
+      .pull-left
+        color: white
+        font-weight: bold
+        text-shadow: 0 5px 10px #fefcc9, 5px  6px 20px #feec85, 0 0 10px #fefcc9, 5px  -5px 15px #feec85, -10px -10px 20px #ffae34, 10px -20px 25px #ec760c
+      .asarebo.pull-right
+        color: orange
+        font-weight: bold
+        text-shadow: 1px 1px 0px white, 2px 2px 0px white, 3px 3px 0px orange
+        margin-left: 40px
+        font-size: 50px
+        margin-top: 15px
+        font-family: 'Slackey', serif
+      .clear
+    h1.bold.pull-right
+      color: white
+      text-shadow: 0 5px 10px #fefcc9, 5px  6px 20px #feec85, 0 0 10px #fefcc9, 5px  -5px 15px #feec85, -10px -10px 20px #ffae34, 10px -20px 25px #ec760c
+      margin-right: 90px
+      margin-top: -5px
+      font-size: 70px
+    .clear
 .sub-header
   nav.navbar.navbar-default
+    background-color: #4198CE
     .container-fluid.container
       #bs-example-navbar-collapse-1.collapse.navbar-collapse
         ul.nav.navbar-nav
+          margin: 0px 6px !important
+
           li.active
             a
+              background-color: #4198CE
+              color: orange
           li
+            border-right: solid 1px white
+            border-left: solid 1px white
+            padding: 0px 14px
+            margin-left: -1px
             a
+              color: white
